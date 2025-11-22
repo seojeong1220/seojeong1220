@@ -1,20 +1,22 @@
 #  안녕하세요! 박서정입니다.
 
-📧 Email: seojeong3854@gmail.com
+## Tech Stack
 
-##  Tech Stack
 ![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white)
 ![STM32](https://img.shields.io/badge/STM32-03234B?logo=STMicroelectronics&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-20232A?logo=espressif&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?logo=mysql&logoColor=white)
 <br>
+
+![MySQL](https://img.shields.io/badge/MySQL-005C84?logo=mysql&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
 ![OpenVINO](https://img.shields.io/badge/OpenVINO-0029FF?logo=openvino&logoColor=white)
 ![Hailo](https://img.shields.io/badge/Hailo--8-000000?logo=ai&logoColor=white)
+<br>
+
 ![GStreamer](https://img.shields.io/badge/GStreamer-2D8CFF?logo=gstreamer&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
@@ -60,7 +62,9 @@
   `Python` · `OpenVINO` · `Tkinter` · `Arduino` · `MySQL` · `PySerial`
 
 - **관련 링크**  
-  - GitHub Repository: *(추가 예정)*  
+  <a href="https://github.com/kccistc/intel-08/tree/main/Team2">
+  <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">
+  </a>
 
 ---
 
