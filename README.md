@@ -45,8 +45,7 @@
 
 
 
-###  OpenVINO 기반 공장 컨베이어 자동화 시스템  
-<Intel Edge AI Academy 프로젝트 경진대회 – 최우수상 수상작>
+###  OpenVINO 기반 공장 컨베이어 자동화 시스템 : Intel Edge AI Academy 프로젝트 경진대회 – 최우수상 수상작>
 
 - **프로젝트 설명**  
   OpenVINO로 최적화된 AI 모델을 활용하여 컨베이어 위 제품을  
