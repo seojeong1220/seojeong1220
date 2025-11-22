@@ -42,7 +42,7 @@
 
 - **관련 링크**  
   - GitHub Repository: *(추가 예정)*  
-  - Demo Video: *(선택)*
+
 
 
 ###  OpenVINO 기반 공장 컨베이어 자동화 시스템
