@@ -61,5 +61,21 @@
 - **사용 기술**  
   `Python` · `OpenVINO` · `Tkinter` · `Arduino` · `MySQL` · `PySerial`
 
+### 3. 출입 감지 기반 실시간 보안 모니터링 시스템  (수정중)
+
+**프로젝트 설명**  
+Button Sensor + Wi-Fi + Bluetooth 기반으로  
+**침입을 감지해 관리실에서 실시간으로 상태를 확인할 수 있는 보안 모니터링 시스템**을 구현했습니다.  
+STM32·ESP-01·HC-06·Arduino·Raspberry Pi를 연동하여  
+로그 저장 및 실시간 경보 알림이 가능한 구조로 설계했습니다.
+
+**주요 역할**
+- 버튼 센서 이벤트 기반 침입 감지 로직 구현  
+- ESP-01(AT Command)을 활용한 Wi-Fi 데이터 전송 처리  
+- Raspberry Pi 웹 서버 + MariaDB 기반 출입 로그 저장 기능 구축  
+- Bluetooth(HC-06) → Arduino 연동을 통한 LCD·Buzzer·LED 상태 알림 표시  
+
+**사용 기술**  
+`C` · `STM32` · `ESP-01(AT Command)` · `HC-06 Bluetooth` · `Arduino` · `LCD/Buzzer/LED` · `Raspberry Pi` · `MariaDB` · `PHP`
 
 
