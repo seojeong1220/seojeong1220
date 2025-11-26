@@ -24,7 +24,9 @@
 
 
 ## Projects
-### RFID 기반 보안 모터 제어 시스템
+### 1. RFID 기반 보안 모터 제어 시스템 
+[<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-RFIDSecurityMotorSystem)
+
 
 - **프로젝트 설명**  
   RFID 인증과 IR 리모컨 입력을 FreeRTOS 기반 멀티태스킹 구조로 통합하여,  
@@ -44,7 +46,7 @@
   - GitHub Repository: *(추가 예정)*  
 
 
-### OpenVINO 기반 공장 컨베이어 자동화 시스템 
+### 2. OpenVINO 기반 공장 컨베이어 자동화 시스템 
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-SmartFactory)
 
 
