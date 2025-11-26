@@ -44,8 +44,9 @@
   - GitHub Repository: *(추가 예정)*  
 
 
+### OpenVINO 기반 공장 컨베이어 자동화 시스템 
+[<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-SmartFactory)
 
-###  OpenVINO 기반 공장 컨베이어 자동화 시스템 : Intel Edge AI Academy 프로젝트 경진대회 – 우수상 수상작
 
 - **프로젝트 설명**  
   OpenVINO로 최적화된 AI 모델을 활용하여 컨베이어 위 제품을  
@@ -61,11 +62,5 @@
 - **사용 기술**  
   `Python` · `OpenVINO` · `Tkinter` · `Arduino` · `MySQL` · `PySerial`
 
-- **관련 링크**  
-  <a href="https://github.com/kccistc/intel-08/tree/main/Team2">
-  <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">
-  </a>
-
----
 
 
