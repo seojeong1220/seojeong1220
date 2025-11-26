@@ -42,9 +42,6 @@
 - **사용 기술**  
   `C` · `STM32F411` · `FreeRTOS` · `SPI(MFRC522)` · `ULN2003 Stepper Motor` · `UART`
 
-- **관련 링크**  
-  - GitHub Repository: *(추가 예정)*  
-
 
 ### 2. OpenVINO 기반 공장 컨베이어 자동화 시스템 
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-SmartFactory)
