@@ -48,18 +48,20 @@
 
 
 - **프로젝트 설명**  
-  OpenVINO로 최적화된 AI 모델을 활용하여 컨베이어 위 제품을  
-  **정상 / 부분 불량 / 완전 불량**으로 실시간 분류하는 자동화 시스템을 개발했습니다.  
-  Python + PySerial로 AI 연산 결과를 하드웨어 제어와 연동했습니다.
+공장 생산라인에서 이동하는 제품의 **불량 여부(QC 스티커 유무, 오염도 비율)**를 자동으로 분류하는  
+AI 기반 스마트 팩토리 모형 시스템을 구현했습니다.
+OpenVINO로 최적화된 모델을 사용하여  정상 / 부분 불량 / 완전 불량을 실시간으로 판단하며, 결과는 Arduino + 포토센서 + 액추에이터와 연동되어 자동 분류됩니다.  
+버튼 하나로 여러 모델을 한 레일에서 구별할 수 있는 **멀티 모델 팩토리 시스템**으로 구현되었습니다.
 
 - **주요 역할**
-  - 모델 추론 모듈 개발 및 OpenVINO 최적화
-  - Tkinter 기반 실시간 시각화 UI 개발
-  - PySerial을 이용한 Arduino 기반 컨베이어 동작 연동
-  - 검사 결과 자동 저장을 위한 MySQL 연동
+  - YOLOX / SegNext / EfficientNet 기반 모델 학습 및 OpenVINO 최적화
+  - Segmentation 기반 Stain Ratio(오염 비율) 계산 알고리즘 구현
+  - Python–Arduino 간 PySerial 통신으로 포토센서·액추에이터 제어
+  - 생산 이력 자동 저장을 위한 MySQL 연동
+  - 카메라 환경 세팅(화이트밸런스·노출 등) 및 데이터셋 트러블슈팅
 
 - **사용 기술**  
-  `Python` · `OpenVINO` · `Tkinter` · `Arduino` · `MySQL` · `PySerial`
+  `Python` · `OpenVINO` · `YOLOX` · `SegNext` · `EfficientNet` · `Arduino` · `MySQL` · `PySerial` · `ONNX`
 
 ### 3. 출입 감지 기반 실시간 보안 모니터링 시스템  (수정중)
 
