@@ -71,7 +71,7 @@ Button Sensor + Wi-Fi + Bluetooth 기반으로
 STM32·ESP-01·HC-06·Arduino·Raspberry Pi를 연동하여  
 로그 저장 및 실시간 경보 알림이 가능한 구조로 설계했습니다.
 
-**주요 역할**
+- **주요 역할**
 - 버튼 센서 이벤트 기반 침입 감지 로직 구현  
 - ESP-01(AT Command)을 활용한 Wi-Fi 데이터 전송 처리  
 - Raspberry Pi 웹 서버 + MariaDB 기반 출입 로그 저장 기능 구축  
