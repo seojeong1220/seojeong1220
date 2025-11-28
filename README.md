@@ -82,4 +82,6 @@ STM32·ESP-01·HC-06·Arduino·Raspberry Pi를 연동하여
 **사용 기술**  
 `C` · `STM32` · `ESP-01(AT Command)` · `HC-06 Bluetooth` · `Arduino` · `LCD/Buzzer/LED` · `Raspberry Pi` · `MariaDB` · `PHP`
 
-
+## Education
+- **가천대학교** 전자공학과 졸업
+- [Intel] Edge AI SW Academy (8기) (2025.07 ~ 2026.01) [수강중]
