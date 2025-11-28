@@ -63,7 +63,9 @@ OpenVINO로 최적화된 모델을 사용하여  정상 / 부분 불량 / 완전
 - **사용 기술**  
   `Python` · `OpenVINO` · `YOLOX` · `SegNext` · `EfficientNet` · `Arduino` · `MySQL` · `PySerial` · `ONNX`
 
-### 3. 출입 감지 기반 실시간 보안 모니터링 시스템  (수정중)
+### 3. 출입 감지 기반 실시간 보안 모니터링 시스템 
+[<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-InstructionDetectionsystem)
+
 
 **프로젝트 설명**  
 Button Sensor + Wi-Fi + Bluetooth 기반으로  
