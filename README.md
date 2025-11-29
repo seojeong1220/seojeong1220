@@ -67,20 +67,36 @@ OpenVINO로 최적화된 모델을 사용하여  정상 / 부분 불량 / 완전
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-InstructionDetectionsystem)
 
 
-**프로젝트 설명**  
+- **프로젝트 설명**  
 Button Sensor + Wi-Fi + Bluetooth 기반으로  
 **침입을 감지해 관리실에서 실시간으로 상태를 확인할 수 있는 보안 모니터링 시스템**을 구현했습니다.  
 STM32·ESP-01·HC-06·Arduino·Raspberry Pi를 연동하여  
 로그 저장 및 실시간 경보 알림이 가능한 구조로 설계했습니다.
 
 - **주요 역할**
-- 버튼 센서 이벤트 기반 침입 감지 로직 구현  
-- ESP-01(AT Command)을 활용한 Wi-Fi 데이터 전송 처리  
-- Raspberry Pi 웹 서버 + MariaDB 기반 출입 로그 저장 기능 구축  
-- Bluetooth(HC-06) → Arduino 연동을 통한 LCD·Buzzer·LED 상태 알림 표시  
+  - 버튼 센서 이벤트 기반 침입 감지 로직 구현
+  - ESP-01(AT Command)을 활용한 Wi-Fi 데이터 전송 처리  
+  - Raspberry Pi 웹 서버 + MariaDB 기반 출입 로그 저장 기능 구축  
+  - Bluetooth(HC-06) → Arduino 연동을 통한 LCD·Buzzer·LED 상태 알림 표시  
 
 **사용 기술**  
 `C` · `STM32` · `ESP-01(AT Command)` · `HC-06 Bluetooth` · `Arduino` · `LCD/Buzzer/LED` · `Raspberry Pi` · `MariaDB` · `PHP`
+
+### 4. 지하식 소화전 불법주차 방지 음성 알리미 시스템(수정 중)
+
+- **프로젝트 설명**  
+실제 지하식 소화전의 구조적 취약점을 기반으로,
+불법 주정차를 자동으로 감지하고 경고하는 IoT 안전 시스템을 구현했습니다.
+차량이 소화전 위에 주차하거나 사람이 밟고 지나갈 경우
+음성 안내 + LED 점등이 자동으로 동작하여 소방차의 소화전 접근성을 높입니다.
+
+- **주요 역할**
+  - 로드셀(무게감지) 및 금속감지센서의 통합 감지 알고리즘 구현
+  - 태양광 패널 → 리튬전지 충전(TP4056) → LM2596 DC-DC 컨버터 안정화 전원 설계
+  - MP3 오디오 모듈을 이용한 경고음/안내음 재생 기능 개발
+ 
+**사용 기술**  
+`Arduino` · `Solar Panel`
 
 ## Education
 - **가천대학교** 전자공학과 졸업
