@@ -1,4 +1,6 @@
-#  안녕하세요! 박서정입니다.
+#  안녕하세요! 박서정입니다.(수정 중)
+
+
 
 ## Tech Stack
 
@@ -43,7 +45,7 @@
   `C` · `STM32F411` · `FreeRTOS` · `SPI(MFRC522)` · `ULN2003 Stepper Motor` · `UART`
 
 
-### 2. OpenVINO 기반 공장 컨베이어 자동화 시스템 
+### 2. OpenVINO 기반 공장 컨베이어 자동화 시스템 🏅 Intel Edge AI Academy 프로젝트 경진대회 – 우수상 수상작
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-SmartFactory)
 
 
@@ -82,7 +84,9 @@ STM32·ESP-01·HC-06·Arduino·Raspberry Pi를 연동하여
 **사용 기술**  
 `C` · `STM32` · `ESP-01(AT Command)` · `HC-06 Bluetooth` · `Arduino` · `LCD/Buzzer/LED` · `Raspberry Pi` · `MariaDB` · `PHP`
 
-### 4. 지하식 소화전 불법주차 방지 음성 알리미 시스템(수정 중)
+### 4. 지하식 소화전 불법주차 방지 음성 알리미 시스템
+[<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-FireParkingAlertSystem)
+
 
 - **프로젝트 설명**  
 실제 지하식 소화전의 구조적 취약점을 기반으로,
