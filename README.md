@@ -2,6 +2,12 @@
 
 
 
+## Education
+- **가천대학교 전자공학과** 졸업
+- **[Intel] Edge AI SW Academy** (8기) (2025.07 ~ 2026.01) [수강중]
+
+
+
 ## Projects
 ### 1. RFID 기반 보안 모터 제어 시스템 
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-RFIDSecurityMotorSystem)
@@ -78,11 +84,6 @@ STM32·ESP-01·HC-06·Arduino·Raspberry Pi를 연동하여
  
 **사용 기술**  
 `Arduino` · `Solar Panel`
-
-## Education
-- **가천대학교** 전자공학과 졸업
-- [Intel] Edge AI SW Academy (8기) (2025.07 ~ 2026.01) [수강중]
-
 
 ## Tech Stack
 
