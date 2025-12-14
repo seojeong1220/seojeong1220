@@ -18,12 +18,6 @@
   **인증된 사용자만 모터를 제어할 수 있는 안전한 임베디드 보안 시스템**을 구축했습니다.  
   UID는 Flash에 저장되어 재부팅 후에도 인증 상태가 유지됩니다.
 
-- **주요 역할**
-  - RFID 기반 사용자 인증 처리 및 Flash 저장 기능 구현
-  - IR Remote NEC 프로토콜 디코딩 (Interrupt + Timer 기반)
-  - 인증 상태 기반 모터 제어 FSM 설계
-  - FreeRTOS Task 구조 설계 및 디버깅
-
 - **사용 기술**  
   `C` · `STM32F411` · `FreeRTOS` · `SPI(MFRC522)` · `ULN2003 Stepper Motor` · `UART`
 
@@ -38,13 +32,6 @@ AI 기반 스마트 팩토리 모형 시스템을 구현했습니다.
 OpenVINO로 최적화된 모델을 사용하여  정상 / 부분 불량 / 완전 불량을 실시간으로 판단하며, 결과는 Arduino + 포토센서 + 액추에이터와 연동되어 자동 분류됩니다.  
 버튼 하나로 여러 모델을 한 레일에서 구별할 수 있는 **멀티 모델 팩토리 시스템**으로 구현되었습니다.
 
-- **주요 역할**
-  - YOLOX / SegNext / EfficientNet 기반 모델 학습 및 OpenVINO 최적화
-  - Segmentation 기반 Stain Ratio(오염 비율) 계산 알고리즘 구현
-  - Python–Arduino 간 PySerial 통신으로 포토센서·액추에이터 제어
-  - 생산 이력 자동 저장을 위한 MySQL 연동
-  - 카메라 환경 세팅(화이트밸런스·노출 등) 및 데이터셋 트러블슈팅
-
 - **사용 기술**  
   `Python` · `OpenVINO` · `YOLOX` · `SegNext` · `EfficientNet` · `Arduino` · `MySQL` · `PySerial` · `ONNX`
 
@@ -56,13 +43,7 @@ OpenVINO로 최적화된 모델을 사용하여  정상 / 부분 불량 / 완전
 Button Sensor + Wi-Fi + Bluetooth 기반으로  
 **침입을 감지해 관리실에서 실시간으로 상태를 확인할 수 있는 보안 모니터링 시스템**을 구현했습니다.  
 STM32·ESP-01·HC-06·Arduino·Raspberry Pi를 연동하여  
-로그 저장 및 실시간 경보 알림이 가능한 구조로 설계했습니다.
-
-- **주요 역할**
-  - 버튼 센서 이벤트 기반 침입 감지 로직 구현
-  - ESP-01(AT Command)을 활용한 Wi-Fi 데이터 전송 처리  
-  - Raspberry Pi 웹 서버 + MariaDB 기반 출입 로그 저장 기능 구축  
-  - Bluetooth(HC-06) → Arduino 연동을 통한 LCD·Buzzer·LED 상태 알림 표시  
+로그 저장 및 실시간 경보 알림이 가능한 구조로 설계했습니다. 
 
 **사용 기술**  
 `C` · `STM32` · `ESP-01(AT Command)` · `HC-06 Bluetooth` · `Arduino` · `LCD/Buzzer/LED` · `Raspberry Pi` · `MariaDB` · `PHP`
@@ -76,11 +57,6 @@ STM32·ESP-01·HC-06·Arduino·Raspberry Pi를 연동하여
 불법 주정차를 자동으로 감지하고 경고하는 IoT 안전 시스템을 구현했습니다.
 차량이 소화전 위에 주차하거나 사람이 밟고 지나갈 경우
 음성 안내 + LED 점등이 자동으로 동작하여 소방차의 소화전 접근성을 높입니다.
-
-- **주요 역할**
-  - 로드셀(무게감지) 및 금속감지센서의 통합 감지 알고리즘 구현
-  - 태양광 패널 → 리튬전지 충전(TP4056) → LM2596 DC-DC 컨버터 안정화 전원 설계
-  - MP3 오디오 모듈을 이용한 경고음/안내음 재생 기능 개발
  
 **사용 기술**  
 `Arduino` · `Solar Panel`
