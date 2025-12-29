@@ -59,8 +59,17 @@ STM32·ESP-01·HC-06·Arduino·Raspberry Pi를 연동하여 로그 저장 및 �
 **사용 기술**  
 `Arduino` · `Solar Panel`
 
-## Tech Stack
+### 5. 불쾌지수 기반 Edge 환경 모니터링 시스템
 
+- **프로젝트 설명**
+실내 환경 데이터를 단순 표시 수준에서 넘어서, 시계보정기능과
+**온·습도 기반 불쾌지수(DI, Discomfort Index)를 실시간 산출·시각화**하는 Edge 컴퓨팅 기반 환경 모니터링 시스템을 설계·구현했습니다.
+  
+**사용 기술**
+`C` ·`Linux Kernel Module` · `I2C(OLED)통신` · `GPIO 제어`
+
+
+## Tech Stack
 ![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
