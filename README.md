@@ -61,6 +61,7 @@ STM32·ESP-01·HC-06·Arduino·Raspberry Pi를 연동하여 로그 저장 및 �
 
 ### 5. 불쾌지수 기반 Edge 환경 모니터링 시스템
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-DI_System)
+
 - **프로젝트 설명**
 
 실내 환경 데이터를 단순 표시 수준에서 넘어서, 시계보정기능과
