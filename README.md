@@ -12,17 +12,18 @@
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/QT-CART)
 
 - **프로젝트 설명**  
- ROS2 환경에서 UWB 통신을 활용하여 사용자를 실시간으로 추적(Following)하거나,
+ ROS2 환경에서 UWB 통신을 활용하여 사용자를 실시간으로 추적(Following)하거나, <br>
 목적지까지 안내(Navigation)하는 **자율주행 스마트 카트**를 개발했습니다.
 
 - **사용 기술**  
   `Python` · `ROS2` · `Uvicorn` · `UWB` · `Qt` · `TurtleBot3`
   
-### 2. OpenVINO 기반 공장 컨베이어 자동화 시스템 🏅 Intel Edge AI Academy 프로젝트 경진대회 – 우수상 수상작
+### 2. OpenVINO 기반 공장 컨베이어 자동화 시스템 <br> 🏅Intel Edge AI Academy 프로젝트 경진대회 – 우수상 수상작
+
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-SmartFactory)
 
 - **프로젝트 설명**  
-공장 생산라인에서 이동하는 제품의 **불량 여부(QC 스티커 유무, 오염도 비율)**를 자동으로 분류하는  
+공장 생산라인에서 이동하는 제품의 불량 여부(QC 스티커 유무, 오염도 비율)를 자동으로 분류하는  
 AI 기반 스마트 팩토리 모형 시스템을 구현했습니다.
 OpenVINO로 최적화된 모델을 사용하여  정상 / 부분 불량 / 완전 불량을 실시간으로 판단하며, 결과는 Arduino + 포토센서 + 액추에이터와 연동되어 자동 분류됩니다.  
 버튼 하나로 여러 모델을 한 레일에서 구별할 수 있는 **멀티 모델 팩토리 시스템**으로 구현되었습니다.
