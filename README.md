@@ -7,24 +7,19 @@
 - **[Intel] Edge AI SW Academy** (8기) (2025.07 ~ 2026.01) [수강중]
 
 
-
 ## Projects
-### 1. RFID 기반 보안 모터 제어 시스템 
-[<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-RFIDSecurityMotorSystem)
-
+### 1. ROS2 기반 UWB 사용자 추적 및 안내 스마트 카트 (QT-CART)
+[<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/QT-CART)
 
 - **프로젝트 설명**  
-  RFID 인증과 IR 리모컨 입력을 FreeRTOS 기반 멀티태스킹 구조로 통합하여,  
-  **인증된 사용자만 모터를 제어할 수 있는 안전한 임베디드 보안 시스템**을 구축했습니다.  
-  UID는 Flash에 저장되어 재부팅 후에도 인증 상태가 유지됩니다.
+ ROS2 환경에서 UWB 통신을 활용하여 사용자를 실시간으로 추적(Following)하거나,
+목적지까지 안내(Navigation)하는 **자율주행 스마트 카트**를 개발했습니다.
 
 - **사용 기술**  
-  `C` · `STM32F411` · `FreeRTOS` · `SPI(MFRC522)` · `ULN2003 Stepper Motor` · `UART`
-
-
+  `Python` · `ROS2` · `Uvicorn` · `UWB` · `Qt` · `TurtleBot3`
+  
 ### 2. OpenVINO 기반 공장 컨베이어 자동화 시스템 🏅 Intel Edge AI Academy 프로젝트 경진대회 – 우수상 수상작
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-SmartFactory)
-
 
 - **프로젝트 설명**  
 공장 생산라인에서 이동하는 제품의 **불량 여부(QC 스티커 유무, 오염도 비율)**를 자동으로 분류하는  
@@ -35,7 +30,18 @@ OpenVINO로 최적화된 모델을 사용하여  정상 / 부분 불량 / 완전
 - **사용 기술**  
   `Python` · `OpenVINO` · `YOLOX` · `SegNext` · `EfficientNet` · `Arduino` · `MySQL` · `PySerial` · `ONNX`
 
-### 3. 출입 감지 기반 실시간 보안 모니터링 시스템 
+### 3. RFID 기반 보안 모터 제어 시스템 
+[<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-RFIDSecurityMotorSystem)
+
+- **프로젝트 설명**  
+  RFID 인증과 IR 리모컨 입력을 FreeRTOS 기반 멀티태스킹 구조로 통합하여,  
+  **인증된 사용자만 모터를 제어할 수 있는 안전한 임베디드 보안 시스템**을 구축했습니다.  
+
+- **사용 기술**  
+  `C` · `STM32F411` · `FreeRTOS` · `SPI(MFRC522)` · `ULN2003 Stepper Motor` · `UART`
+
+
+### 4. 출입 감지 기반 실시간 보안 모니터링 시스템 
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-InstructionDetectionsystem)
 
 
@@ -44,20 +50,8 @@ Button Sensor + Wi-Fi + Bluetooth 기반으로
 **침입을 감지해 관리실에서 실시간으로 상태를 확인할 수 있는 보안 모니터링 시스템**을 구현했습니다.  
 STM32·ESP-01·HC-06·Arduino·Raspberry Pi를 연동하여 로그 저장 및 실시간 경보 알림이 가능한 구조로 설계했습니다. 
 
-**사용 기술**  
+- **사용 기술**  
 `C` · `STM32` · `ESP-01(AT Command)` · `HC-06 Bluetooth` · `Arduino` · `LCD/Buzzer/LED` · `Raspberry Pi` · `MariaDB` · `PHP`
-
-### 4. 지하식 소화전 불법주차 방지 음성 안내 시스템
-[<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-FireParkingAlertSystem)
-
-
-- **프로젝트 설명**  
-실제 지하식 소화전의 구조적 취약점을 기반으로,
-**불법 주정차를 자동으로 감지하고 경고하는 IoT 안전 시스템**을 구현했습니다.
-차량이 소화전 위에 주차하거나 사람이 밟고 지나갈 경우 음성 안내 + LED 점등이 자동으로 동작하여 소방차의 소화전 접근성을 높입니다.
- 
-**사용 기술**  
-`Arduino` · `Solar Panel`
 
 ### 5. 불쾌지수 기반 Edge 환경 모니터링 시스템
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-DI_System)
@@ -67,9 +61,22 @@ STM32·ESP-01·HC-06·Arduino·Raspberry Pi를 연동하여 로그 저장 및 �
 실내 환경 데이터를 단순 표시 수준에서 넘어서, 시계보정기능과
 **온·습도 기반 불쾌지수(DI, Discomfort Index)를 실시간 산출·시각화**하는 Edge 컴퓨팅 기반 환경 모니터링 시스템을 설계·구현했습니다.
   
-**사용 기술**
+- **사용 기술**
 
 `C` ·`Linux Kernel Module` · `I2C(OLED)통신` · `GPIO 제어`
+
+### 6. 지하식 소화전 불법주차 방지 음성 안내 시스템
+[<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-FireParkingAlertSystem)
+
+
+- **프로젝트 설명**  
+실제 지하식 소화전의 구조적 취약점을 기반으로,
+**불법 주정차를 자동으로 감지하고 경고하는 IoT 안전 시스템**을 구현했습니다.
+차량이 소화전 위에 주차하거나 사람이 밟고 지나갈 경우 음성 안내 + LED 점등이 자동으로 동작하여 소방차의 소화전 접근성을 높입니다.
+ 
+- **사용 기술**  
+`Arduino` · `Solar Panel`
+
 
 
 ## Tech Stack
