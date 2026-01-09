@@ -8,17 +8,8 @@
 
 
 ## Projects
-### 1. ROS2 기반 UWB 사용자 추적 및 안내 스마트 카트 (QT-CART)
-[<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/QT-CART)
-
-- **프로젝트 설명**  
- ROS2 환경에서 UWB 통신을 활용하여 사용자를 실시간으로 추적(Following)하거나, <br>
-목적지까지 안내(Navigation)하는 **자율주행 스마트 카트**를 개발했습니다.
-
-- **사용 기술**  
-  `Python` · `ROS2` · `Uvicorn` · `UWB` · `Qt` · `TurtleBot3`
   
-### 2. OpenVINO 기반 공장 컨베이어 자동화 시스템 <br> 🏅Intel Edge AI Academy 프로젝트 경진대회 – 우수상 수상작
+### 1. OpenVINO 기반 공장 컨베이어 자동화 시스템 <br> 🏅Intel Edge AI Academy 프로젝트 경진대회 – 우수상 수상작
 
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-SmartFactory)
 
@@ -30,6 +21,18 @@ OpenVINO로 최적화된 모델을 사용하여  정상 / 부분 불량 / 완전
 
 - **사용 기술**  
   `Python` · `OpenVINO` · `YOLOX` · `SegNext` · `EfficientNet` · `Arduino` · `MySQL` · `PySerial` · `ONNX`
+  
+### 2. 불쾌지수 기반 Edge 환경 모니터링 시스템
+[<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-DI_System)
+
+- **프로젝트 설명**
+
+실내 환경 데이터를 단순 표시 수준에서 넘어서, 시계보정기능과
+**온·습도 기반 불쾌지수(DI, Discomfort Index)를 실시간 산출·시각화**하는 Edge 컴퓨팅 기반 환경 모니터링 시스템을 설계·구현했습니다.
+  
+- **사용 기술**
+
+`C` ·`Linux Kernel Module` · `I2C(OLED)통신` · `GPIO 제어`
 
 ### 3. RFID 기반 보안 모터 제어 시스템 
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-RFIDSecurityMotorSystem)
@@ -40,7 +43,16 @@ OpenVINO로 최적화된 모델을 사용하여  정상 / 부분 불량 / 완전
 
 - **사용 기술**  
   `C` · `STM32F411` · `FreeRTOS` · `SPI(MFRC522)` · `ULN2003 Stepper Motor` · `UART`
+  
+### 4. ROS2 기반 UWB 사용자 추적 및 안내 스마트 카트 (QT-CART)
+[<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/QT-CART)
 
+- **프로젝트 설명**  
+ ROS2 환경에서 UWB 통신을 활용하여 사용자를 실시간으로 추적(Following)하거나, <br>
+목적지까지 안내(Navigation)하는 **자율주행 스마트 카트**를 개발했습니다.
+
+- **사용 기술**  
+  `Python` · `ROS2` · `Uvicorn` · `UWB` · `Qt` · `TurtleBot3`
 
 ### 4. 출입 감지 기반 실시간 보안 모니터링 시스템 
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-InstructionDetectionsystem)
