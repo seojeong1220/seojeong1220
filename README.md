@@ -105,7 +105,6 @@ STM32·ESP-01·HC-06·Arduino·Raspberry Pi를 연동하여 로그 저장 및 �
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
 ![OpenVINO](https://img.shields.io/badge/OpenVINO-0029FF?logo=openvino&logoColor=white)
-![Hailo](https://img.shields.io/badge/Hailo--8-000000?logo=ai&logoColor=white)
 <br>
 
 ![GStreamer](https://img.shields.io/badge/GStreamer-2D8CFF?logo=gstreamer&logoColor=white)
