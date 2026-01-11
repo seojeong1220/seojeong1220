@@ -55,7 +55,7 @@ OpenVINO로 최적화된 모델을 사용하여  정상 / 부분 불량 / 완전
 - **사용 기술**  
   `Python` · `ROS2` · `Uvicorn` · `UWB` · `Qt` · `TurtleBot3`
 
-### 4. 출입 감지 기반 실시간 보안 모니터링 시스템 
+### 5. 출입 감지 기반 실시간 보안 모니터링 시스템 
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-InstructionDetectionsystem)
 
 
@@ -67,17 +67,6 @@ STM32·ESP-01·HC-06·Arduino·Raspberry Pi를 연동하여 로그 저장 및 �
 - **사용 기술**  
 `C` · `STM32` · `ESP-01(AT Command)` · `HC-06 Bluetooth` · `Arduino` · `LCD/Buzzer/LED` · `Raspberry Pi` · `MariaDB` · `PHP`
 
-### 5. 불쾌지수 기반 Edge 환경 모니터링 시스템
-[<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-DI_System)
-
-- **프로젝트 설명**
-
-실내 환경 데이터를 단순 표시 수준에서 넘어서, 시계보정기능과
-**온·습도 기반 불쾌지수(DI, Discomfort Index)를 실시간 산출·시각화**하는 Edge 컴퓨팅 기반 환경 모니터링 시스템을 설계·구현했습니다.
-  
-- **사용 기술**
-
-`C` ·`Linux Kernel Module` · `I2C(OLED)통신` · `GPIO 제어`
 
 ### 6. 지하식 소화전 불법주차 방지 음성 안내 시스템
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-FireParkingAlertSystem)
