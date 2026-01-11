@@ -64,7 +64,7 @@ BLE iBeacon의 UUID + RSSI 신호를 기반으로 TAG의 거리 및 상태를 �
 `C` · `ESP32` · `BLE` · `Raspberry Pi` · `MariaDB` · `PHP` · `TCP Socket`
 
 
-### 5. 출입 감지 기반 실시간 보안 모니터링 시스템 
+### 6. 출입 감지 기반 실시간 보안 모니터링 시스템 
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-InstructionDetectionsystem)
 
 - **프로젝트 설명**  
@@ -76,7 +76,7 @@ STM32·ESP-01·HC-06·Arduino·Raspberry Pi를 연동하여 로그 저장 및 �
 `C` · `STM32` · `ESP-01(AT Command)` · `HC-06 Bluetooth` · `Arduino` · `LCD/Buzzer/LED` · `Raspberry Pi` · `MariaDB` · `PHP`
 
 
-### 6. 지하식 소화전 불법주차 방지 음성 안내 시스템
+### 7. 지하식 소화전 불법주차 방지 음성 안내 시스템
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-FireParkingAlertSystem)
 
 
