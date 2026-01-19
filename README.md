@@ -14,6 +14,7 @@ parkseojeong01@gmail.com
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-CAN-DriverBehavior-System)
 
 - **프로젝트 설명**
+  
  본 프로젝트는 차량의 OBD-II 기반 CAN 통신을 통해 주행 데이터(속도, 엔진 RPM, 핸들 조향각)를 수집하고, 이를 분석하여 실시간으로 운전 행동 및 운전 성향을 평가합니다.
 
 - **사용 기술**
