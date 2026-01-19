@@ -9,8 +9,17 @@
 parkseojeong01@gmail.com
 
 ## Projects
-  
-### 1. OpenVINO 기반 공장 컨베이어 자동화 시스템 <br> 🏅Intel Edge AI Academy 프로젝트 경진대회 – 우수상 수상작
+
+### 1.OBD CAN 통신을 활용한 운전자 운전 성향 분석 시스템 <br> 🏅Intel Edge AI Academy 프로젝트 경진대회 – 최우수상 수상작
+[<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-CAN-DriverBehavior-System)
+
+- **프로젝트 설명**
+ 본 프로젝트는 차량의 OBD-II 기반 CAN 통신을 통해 주행 데이터(속도, 엔진 RPM, 핸들 조향각)를 수집하고, 이를 분석하여 실시간으로 운전 행동 및 운전 성향을 평가합니다.
+
+- **사용 기술**
+`Arduino` · `C/C++` · `MCP2515` · `2.2inch TFT LCD` · `SD` · `DS1302`
+ 
+### 2. OpenVINO 기반 공장 컨베이어 자동화 시스템 <br> 🏅Intel Edge AI Academy 프로젝트 경진대회 – 우수상 수상작
 
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-SmartFactory)
 
@@ -23,7 +32,7 @@ OpenVINO로 최적화된 모델을 사용하여  정상 / 부분 불량 / 완전
 - **사용 기술**  
   `Python` · `OpenVINO` · `YOLOX` · `SegNext` · `EfficientNet` · `Arduino` · `MySQL` · `PySerial` · `ONNX`
   
-### 2. 불쾌지수 기반 Edge 환경 모니터링 시스템
+### 3. 불쾌지수 기반 Edge 환경 모니터링 시스템
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-DI_System)
 
 - **프로젝트 설명**
@@ -35,7 +44,7 @@ OpenVINO로 최적화된 모델을 사용하여  정상 / 부분 불량 / 완전
 
 `C` ·`Linux Kernel Module` · `I2C(OLED)통신` · `GPIO 제어`
 
-### 3. RFID 기반 보안 모터 제어 시스템 
+### 4. RFID 기반 보안 모터 제어 시스템 
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-RFIDSecurityMotorSystem)
 
 - **프로젝트 설명**  
@@ -45,7 +54,7 @@ OpenVINO로 최적화된 모델을 사용하여  정상 / 부분 불량 / 완전
 - **사용 기술**  
   `C` · `STM32F411` · `FreeRTOS` · `SPI(MFRC522)` · `ULN2003 Stepper Motor` · `UART`
   
-### 4. ROS2 기반 UWB 사용자 추적 및 안내 스마트 카트 (QT-CART)
+### 5. ROS2 기반 UWB 사용자 추적 및 안내 스마트 카트 (QT-CART)
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/QT-CART)
 
 - **프로젝트 설명**  
@@ -55,7 +64,7 @@ OpenVINO로 최적화된 모델을 사용하여  정상 / 부분 불량 / 완전
 - **사용 기술**  
   `Python` · `ROS2` · `Uvicorn` · `UWB` · `Qt` · `TurtleBot3`
 
-### 5. BLE Beacon 기반 IoT 분실 탐지 시스템
+### 6. BLE Beacon 기반 IoT 분실 탐지 시스템
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Beacon-Tag-IoT)
 - **프로젝트 설명**  
 BLE iBeacon의 UUID + RSSI 신호를 기반으로 TAG의 거리 및 상태를 판단하여 **분실 여부를 탐지하는 IoT 시스템을 개발** 하였습니다.
@@ -64,7 +73,7 @@ BLE iBeacon의 UUID + RSSI 신호를 기반으로 TAG의 거리 및 상태를 �
 `C` · `ESP32` · `BLE` · `Raspberry Pi` · `MariaDB` · `PHP` · `TCP Socket`
 
 
-### 6. 출입 감지 기반 실시간 보안 모니터링 시스템 
+### 7. 출입 감지 기반 실시간 보안 모니터링 시스템 
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-InstructionDetectionsystem)
 
 - **프로젝트 설명**  
@@ -76,7 +85,7 @@ STM32·ESP-01·HC-06·Arduino·Raspberry Pi를 연동하여 로그 저장 및 �
 `C` · `STM32` · `ESP-01(AT Command)` · `HC-06 Bluetooth` · `Arduino` · `LCD/Buzzer/LED` · `Raspberry Pi` · `MariaDB` · `PHP`
 
 
-### 7. 지하식 소화전 불법주차 방지 음성 안내 시스템
+### 8. 지하식 소화전 불법주차 방지 음성 안내 시스템
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-FireParkingAlertSystem)
 
 
