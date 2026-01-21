@@ -66,7 +66,7 @@ OpenVINO로 최적화된 모델을 사용하여  정상 / 부분 불량 / 완전
   `Python` · `ROS2` · `Uvicorn` · `UWB` · `Qt` · `TurtleBot3`
 
 ### 6. BLE Beacon 기반 IoT 분실 탐지 시스템
-[<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Beacon-Tag-IoT)
+[<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-Beacon-Tag-IoT)
 - **프로젝트 설명**  
 BLE iBeacon의 UUID + RSSI 신호를 기반으로 TAG의 거리 및 상태를 판단하여 **분실 여부를 탐지하는 IoT 시스템을 개발** 하였습니다.
 
