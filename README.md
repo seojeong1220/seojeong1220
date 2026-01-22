@@ -10,7 +10,7 @@ parkseojeong01@gmail.com
 
 ## Projects
 
-### 1.OBD CAN 통신을 활용한 운전자 운전 성향 분석 시스템 <br>
+### 1.OBD CAN 통신을 활용한 운전자 운전 성향 분석 시스템 <br> 🏅Intel Edge AI Academy 프로젝트 경진대회 – 우수상 수상작
 [<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/Project-CAN-DriverBehavior-System)
 
 - **프로젝트 설명**
