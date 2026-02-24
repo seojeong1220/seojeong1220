@@ -56,7 +56,6 @@ OpenVINO로 최적화된 모델을 사용하여  정상 / 부분 불량 / 완전
   `C` · `STM32F411` · `FreeRTOS` · `SPI(MFRC522)` · `ULN2003 Stepper Motor` · `UART`
   
 ### 5. ROS2 기반 UWB 사용자 추적 및 안내 스마트 카트 (QT-CART)
-[<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white">](https://github.com/seojeong1220/QT-CART)
 
 - **프로젝트 설명**  
  ROS2 환경에서 UWB 통신을 활용하여 사용자를 실시간으로 추적(Following)하거나, <br>
