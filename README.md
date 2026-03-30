@@ -2,7 +2,6 @@
 
 
 ## Education
-- **가천대학교 전자공학과** 졸업
 - **[Intel] Edge AI SW Academy** (8기) (2025.07 ~ 2026.01) [수료]
   
 ## contact 
